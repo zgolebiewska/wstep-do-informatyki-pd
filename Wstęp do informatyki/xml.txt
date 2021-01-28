@@ -1,0 +1,29 @@
+<?XML version-"1.0"?>
+<!DOCTYPE library [
+
+<1ELEMENT library (storage+)>
+<!ELEMENT storage (shelf+)>
+<!ATIALIST shelf domain CDATA #REQUIRED>
+<!ELEMENT shelf (book*,magazine*)>
+<!ELEMENT book (title,author)>
+<!ELEMENT magazine (title,author)>
+<!element title (#PCDATA)>
+<!element author (#PCDARA)>
+]>
+
+<library>
+<storage city='Poznań'>
+	<shelf -domain="Test">
+            <book>
+		<title>
+			Test
+		</title>
+		<author>
+			Test Test
+		</author>
+	</shelf>
+</storage>
+<storage city='Warszawa'>
+		//musi byc shelf
+</storage>
+</library>

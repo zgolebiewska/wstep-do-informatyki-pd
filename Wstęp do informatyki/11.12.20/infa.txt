@@ -1,0 +1,9 @@
+1. Host A wyśle 19 pakietów (2 z dhcp, 1 z arp, 16 z pakietów tcp) i odbierze 18 pakietów (2 z dhcp, 1 arp, 15 z pakietów tcp)
+2. 
+/15 -> 255.254.0.0
+/22 -> 255.255.252.0
+/9  -> 255.128.0.0
+
+3. 255.248.0.0 -> 524288 hostów
+255.255.252.0 -> 1024 hostów
+255.255.255.254 -> 2 hosty

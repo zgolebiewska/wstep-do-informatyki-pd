@@ -1,0 +1,23 @@
+zadanie domowe 
+
+zad 1.
+ a) 15 pln euro 
+ b) last 5 matches of manchester united
+ c) nelson mandela birth date and death date
+
+zad 2. 
+ a) site:wmi.amu.edu.pl rafal jaworski
+ b) related: amu.edu.pl
+
+zad 3.
+ a)plotting  f(x)=cos(x2)-2sin(x3)
+ b)derivative f(x) = x^3-x^2+5x
+ c)maximize f(x) = -x^2+5
+
+zad 4.
+ a)famous birthdays  20 february
+ b) second tuesday of may 1942
+ c)zuzanna golebiewska to morse code
+
+zad 5.
+https://docs.google.com/document/d/1stXqWkiTIj-hKi0vsBaGf1_6ptzY3gs8rzfv5bQIx_8/edit?usp=sharing

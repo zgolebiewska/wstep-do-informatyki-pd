@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<!DOCTYPE sklep [
+	<!ELEMENT sklep (dział+)>	
+	<!ELEMENT dział (półka+)>
+	<!ATTLIST dział typ CDATA #REQUIRED>
+	<!ELEMENT półka (produkt+)>
+	<!ATTLIST półka rodzaj CDATA #REQUIRED>
+	<!ELEMENT produkt (cena+, producent+, data_ważności?)>
+	<!ATTLIST produkt nazwa CDATA #REQUIRED>
+	<!ELEMENT cena (#PCDATA)>
+	<!ELEMENT producent (#PCDATA)>
+	<!ELEMENT data_ważności (#PCDATA)>
+]>
+<sklep>
+	<dział typ="spożywcze">
+		<półka rodzaj="słodycze">
+			<produkt nazwa="płatki">
+				<cena>6zł</cena>
+				<producent>NESTLE</producent>
+				<data_ważności>12.12.2020</data_ważności>
+			</produkt>
+			<produkt nazwa="czekolada">
+				<cena>5zł</cena>
+				<producent>MILKA</producent>
+				<data_ważności>01.03.2021</data_ważności>
+			</produkt>
+		</półka>
+		<półka rodzaj="chrupki">
+			<produkt nazwa="chipsy">
+				<cena>3zł</cena>
+				<producent>LAYS</producent>
+				<data_ważności>01.01.2021</data_ważności>
+			</produkt>
+      </półka>
+	</dział>
+	<dział typ="papiernicze">
+		<półka rodzaj="do malowania">
+			<produkt nazwa="kredki">
+				<cena>15zł</cena>
+				<producent>FABER CASTEL</producent>
+			</produkt>
+			<produkt nazwa="mazaki">
+				<cena>11zł</cena>
+				<producent>ASTRA</producent>
+			</produkt>
+		</półka>
+		<półka rodzaj="bloki">
+			<produkt nazwa="blok rysunkowy">
+				<cena>2zł</cena>
+				<producent>ASTRA</producent>
+			</produkt>
+		</półka>
+	</dział>
+	<dział typ="odzież">
+		<półka rodzaj="koszulki">
+			<produkt nazwa="t-shirt">
+				<cena>25zł</cena>
+				<producent>HandM</producent>
+			</produkt>
+		</półka>
+		<półka rodzaj="spodnie">
+			<produkt nazwa="jeansy">
+				<cena>100zł</cena>
+				<producent>ZARA</producent>
+			</produkt>
+			<produkt nazwa="spodnie dresowe">
+				<cena>50zł</cena>
+				<producent>RESERVED</producent>
+			</produkt>
+		</półka>
+	</dział>
+</sklep>
